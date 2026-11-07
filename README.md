@@ -22,7 +22,7 @@ This repository is all you have to know about the Python Module in 42 curriculum
 - `python_module_07`    : Eighth module of python, Abstract Card Architecture
 - `python_module_08`    : Ninth module of python, Welcome to the Real World of Data Engineering
 - `python_module_09`    : Tenth module of python, Discover Pydantic Models & Validation
-- `python_module_10`    : Eleventh module of python, Master the Ancient Arts of Functional Programming
+- `python_module_10`    : Eleventh module of python, python fundamentals through garden data
 
 ## Instructions
 
@@ -37,6 +37,8 @@ Run Germinette:
 ```sh
 germinette python_module_00
 ```
+
+## Details
 
 ## Resources
 
