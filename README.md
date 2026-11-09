@@ -32,6 +32,12 @@ Compile:
 python3 main.py
 ```
 
+Run mypy:
+
+```sh
+mypy main.py
+```
+
 Run Germinette:
 
 ```sh
