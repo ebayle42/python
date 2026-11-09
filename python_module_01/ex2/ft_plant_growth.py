@@ -1,7 +1,7 @@
 class Plant:
-    def __init__(self, name: str, h: float, age: int) -> None:
+    def __init__(self, name: str, height: float, age: int) -> None:
         self.name = name
-        self.h = h
+        self.height = height
         self.age = age
 
     def grow(self) -> None:
@@ -14,7 +14,8 @@ class Plant:
         for i in range(8):
             if i > 1:
                 print("=== Day", i, "===")
-            print(f"{self.name}: {round(self.h, 2)}cm, {self.age} days old")
+            print(f"{self.name}: {round(self.height, 2)}cm," 
+                  f"{self.age} days old")
             if i < 1:
                 print("=== Day 1 ===")
             self.grow()

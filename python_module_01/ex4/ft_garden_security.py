@@ -1,11 +1,11 @@
 class Plant:
     def __init__(self, name: str, height: float, age: int) -> None:
-        self.name = name
+        self._name = name
         self._height = round(height, 2)
         self._age = age
 
     def show(self) -> None:
-        print(f"Created: {self.name}: {self.get_height()}cm, "
+        print(f"Created: {self._name}: {self.get_height()}cm, "
               f"{self.get_age()} days old")
 
     def set_height(self, height_up: float) -> None:
@@ -31,7 +31,7 @@ class Plant:
         return self._age
 
     def state(self) -> None:
-        print(f"Current state: {self.name}:, {self.get_height()}cm, "
+        print(f"Current state: {self._name}:, {self.get_height()}cm, "
               f"{self.get_age()} days old")
 
 
