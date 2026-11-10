@@ -5,7 +5,7 @@ class Plant:
         self.age = age
 
     def grow(self) -> None:
-        self.h += 0.8
+        self.height += 0.8
 
     def to_age(self) -> None:
         self.age += 1
@@ -14,7 +14,7 @@ class Plant:
         for i in range(8):
             if i > 1:
                 print("=== Day", i, "===")
-            print(f"{self.name}: {round(self.height, 2)}cm," 
+            print(f"{self.name}: {round(self.height, 2)}cm,"
                   f"{self.age} days old")
             if i < 1:
                 print("=== Day 1 ===")
