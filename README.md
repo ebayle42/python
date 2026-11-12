@@ -43,14 +43,14 @@ flake8 main.py
 Run pyvision:
 
 ```sh
-pyvision -m python_m00
+pyvision -m 00
 ```
 
 ## Details
 
 ## Resources
 
-- [pyision](https://www.github.com/ebayle42/pyvision/) by [ebayle42](https://www.github.com/ebayle42)
+- [pyvision](https://www.github.com/ebayle42/pyvision/) by [ebayle42](https://www.github.com/ebayle42)
 - [GeeksForGeeks (Functions)](https://www.geeksforgeeks.org/python/python-functions/)
 - [GeeksForGeeks (Recursion)](https://www.geeksforgeeks.org/python/recursion-in-python/)
 - [W3Schools (function range())](https://www.w3schools.com/python/ref_func_range.asp)
