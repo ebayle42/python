@@ -17,10 +17,7 @@ This repository is all you have to know about the Python Module in 42 curriculum
 - `python_module_04`    : Fifth module of python, Digital Preservation in the Cyber Archives
 - `python_module_05`    : Sixth module of python, Polymorphic Data Streams in the Digital Matrix
 - `python_module_05bis` : Sixth bis module of python, Packages, Environments and the Alchemist’s Toolchain
-- `python_module_06`    : Seventh module of python, Mastering Python’s Import Mysteries
 - `python_module_06bis` : Seventh bis module of python, from Data Streams to Battle Strategies
-- `python_module_07`    : Eighth module of python, Abstract Card Architecture
-- `python_module_08`    : Ninth module of python, Welcome to the Real World of Data Engineering
 - `python_module_09`    : Tenth module of python, Discover Pydantic Models & Validation
 - `python_module_10`    : Eleventh module of python, python fundamentals through garden data
 
@@ -38,20 +35,26 @@ Run mypy:
 mypy main.py
 ```
 
-Run Germinette:
+Run flake8
+```sh
+flake8 main.py
+```
+
+Run pyvision:
 
 ```sh
-germinette python_module_00
+pyvision -m python_m00
 ```
 
 ## Details
 
 ## Resources
 
-- [Germinette](https://github.com/ExceptedPrism3/germinette) by [ExceptedPrism3](https://github.com/ExceptedPrism3)
+- [pyision](https://www.github.com/ebayle42/pyvision/) by [ebayle42](https://www.github.com/ebayle42)
 - [GeeksForGeeks (Functions)](https://www.geeksforgeeks.org/python/python-functions/)
 - [GeeksForGeeks (Recursion)](https://www.geeksforgeeks.org/python/recursion-in-python/)
 - [W3Schools (function range())](https://www.w3schools.com/python/ref_func_range.asp)
 - [RealPython (if __name__ == "__main__")](https://realpython.com/if-name-main-python/)
 - [IONOS (Classes Python)](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/classes-python/)
+- [Docstring (Héritage)](https://www.docstring.fr/glossaire/heritage/)
 
