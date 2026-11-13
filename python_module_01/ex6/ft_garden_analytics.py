@@ -30,6 +30,14 @@ class Plant:
         self._name = name
         self._height = height
         self._age = age
+        if height < 0:
+            print(f"{name}: Error, height can't be negative")
+        else:
+            self._height = height
+        if age < 0:
+            print(f"{name}: Error, age can't be negative")
+        else:
+            self._age = age
         self._stats = self._create_stats()
 
     def _create_stats(self) -> "Plant.Stats":
@@ -146,6 +154,9 @@ class Vegetable(Plant):
     def age(self, to_age: int) -> None:
         super().age(to_age)
         self._nutritional_value += to_age
+
+    def grow(self, to_grow: float) -> None:
+        self.set_height(self.get_height() + to_grow)
 
     def show(self) -> None:
         super().show()

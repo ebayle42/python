@@ -55,6 +55,7 @@ pyvision -m 00
 - [GeeksForGeeks (Recursion)](https://www.geeksforgeeks.org/python/recursion-in-python/)
 - [W3Schools (function range())](https://www.w3schools.com/python/ref_func_range.asp)
 - [RealPython (if __name__ == "__main__")](https://realpython.com/if-name-main-python/)
-- [IONOS (Classes Python)](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/classes-python/)
-- [Docstring (Héritage)](https://www.docstring.fr/glossaire/heritage/)
-
+- [IONOS (Class Python)](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/classes-python/)
+- [Docstring (Inheritance)](https://www.docstring.fr/glossaire/heritage/)
+- [GeeksForGeeks (Static method)](https://www.geeksforgeeks.org/python/python-staticmethod/)
+- [GeeksForGeeks (Class method)](https://www.geeksforgeeks.org/python/classmethod-in-python/)

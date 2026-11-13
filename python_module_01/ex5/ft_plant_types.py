@@ -3,6 +3,14 @@ class Plant:
         self._name = name
         self._height = height
         self._age = age
+        if height < 0:
+            print(f"{name}: Error, height can't be negative")
+        else:
+            self._height = height
+        if age < 0:
+            print(f"{name}: Error, age can't be negative")
+        else:
+            self._age = age
 
     def get_name(self) -> str:
         return self._name
@@ -18,16 +26,14 @@ class Plant:
             print(f"{self.get_name()}: Error, age can't be negative")
             print("Age update rejected")
             return
-        else:
-            self._age = update_age
+        self._age = update_age
 
     def set_height(self, update_height: float) -> None:
         if update_height < 0:
             print(f"{self.get_name()}: Error, height can't be negative")
             print("Height update rejected")
             return
-        else:
-            self._height = update_height
+        self._height = update_height
 
     def show(self) -> None:
         print(f"{self.get_name()}: {self.get_height()}cm, "
@@ -88,25 +94,26 @@ class Vegetable(Plant):
         print(f" Nutritional value: {self._nutritional_value}")
 
 
-f1 = Flower("Rose", 15.0, 10, "red")
-t1 = Tree("Oak", 200.0, 365, 5.0)
-v1 = Vegetable("Tomato", 5.0, 10, "April", 0)
+if __name__ == "__main__":
+    f1 = Flower("Rose", 15.0, 10, "red")
+    t1 = Tree("Oak", 200.0, 365, 5.0)
+    v1 = Vegetable("Tomato", 5.0, 10, "April", 0)
 
-print("=== Garden Plant Types ===")
-print("=== Flower")
-f1.show()
-print("[asking the rose to bloom]")
-f1.bloom()
-f1.show()
-print()
-print("=== Tree")
-t1.show()
-print("[asking the oak to produce shade]")
-t1.produce_shade()
-print()
-print("=== Vegetable")
-v1.show()
-print("[make tomato grow and age for 20 days]")
-v1.grow(42.0)
-v1.age(20)
-v1.show()
+    print("=== Garden Plant Types ===")
+    print("=== Flower")
+    f1.show()
+    print("[asking the rose to bloom]")
+    f1.bloom()
+    f1.show()
+    print()
+    print("=== Tree")
+    t1.show()
+    print("[asking the oak to produce shade]")
+    t1.produce_shade()
+    print()
+    print("=== Vegetable")
+    v1.show()
+    print("[make tomato grow and age for 20 days]")
+    v1.grow(42.0)
+    v1.age(20)
+    v1.show()
