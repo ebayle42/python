@@ -273,3 +273,5 @@ pyvision -m 00
 - [Docstring (Inheritance)](https://www.docstring.fr/glossaire/heritage/)
 - [GeeksForGeeks (Static method)](https://www.geeksforgeeks.org/python/python-staticmethod/)
 - [GeeksForGeeks (Class method)](https://www.geeksforgeeks.org/python/classmethod-in-python/)
+- [GeeksForGeeks (str to int)](https://www.geeksforgeeks.org/python/convert-string-to-integer-in-python/)
+- [W3Schools (ValueError)](https://www.w3schools.com/python/ref_exception_valueerror.asp)
