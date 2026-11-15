@@ -17,7 +17,7 @@ def test_temperature(data: str) -> None:
 
 
 if __name__ == "__main__":
-    print("=== Garden Temperature ===")
+    print("=== Garden Temperature Checker ===")
     print()
     test_temperature("25")
     print()
