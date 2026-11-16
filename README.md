@@ -262,6 +262,8 @@ pyvision -m 00
 
 </details>
 
+### python_module_02 — Data Engineering for Smart Agriculture
+
 ## Resources
 
 - [pyvision](https://www.github.com/ebayle42/pyvision/) by [ebayle42](https://www.github.com/ebayle42)
@@ -275,3 +277,10 @@ pyvision -m 00
 - [GeeksForGeeks (Class method)](https://www.geeksforgeeks.org/python/classmethod-in-python/)
 - [GeeksForGeeks (str to int)](https://www.geeksforgeeks.org/python/convert-string-to-integer-in-python/)
 - [W3Schools (ValueError)](https://www.w3schools.com/python/ref_exception_valueerror.asp)
+- [GeeksforGeeks (Custom Errors)](https://www.geeksforgeeks.org/python/define-custom-exceptions-in-python/) 
+- [Educative (__str__)](https://www.educative.io/answers/what-is-the-str-method-in-python)
+- [GeeksForGeeks (sys-argv)](https://www.geeksforgeeks.org/python/how-to-use-sys-argv-in-python/)
+- [GeeksForGeeks (Python lists)](https://www.geeksforgeeks.org/python/python-lists/)
+- [GeeksForGeeks (sum() in Python)](https://www.geeksforgeeks.org/python/sum-function-python/)
+- [GeeksForGeeks max() in Python](https://www.geeksforgeeks.org/python/python-max-function/)
+- [GeeksForGeeks min() in Python](https://www.geeksforgeeks.org/python/python-min-function/)
