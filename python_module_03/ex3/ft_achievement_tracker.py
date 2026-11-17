@@ -12,10 +12,10 @@ def gen_player_achievements() -> set[str]:
     return set(random.sample(ACHIEVEMENTS, random_number))
 
 if __name__ == "__main__":
-    alice = gen_player_achievements
-    bob = gen_player_achievements
-    charlie = gen_player_achievements
-    dylan = gen_player_achievements
+    alice = gen_player_achievements()
+    bob = gen_player_achievements()
+    charlie = gen_player_achievements()
+    dylan = gen_player_achievements()
     print(f"Player Alice: {alice}")
     print(f"Player Bob: {bob}")
     print(f"Player Charlie: {charlie}")
