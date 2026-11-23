@@ -434,7 +434,7 @@ pyvision -m 00
 - [GeeksForGeeks (str to int)](https://www.geeksforgeeks.org/python/convert-string-to-integer-in-python/)
 - [W3Schools (ValueError)](https://www.w3schools.com/python/ref_exception_valueerror.asp)
 - [GeeksforGeeks (Custom Errors)](https://www.geeksforgeeks.org/python/define-custom-exceptions-in-python/) 
-- [Educative ('__str__' in Python)]([https://www.educative.io/answerswhat-is-the-str-method-in-python])
+- [Educative](https://www.educative.io/answerswhat-is-the-str-method-in-python)
 - [GeeksForGeeks (sys-argv)](https://www.geeksforgeeks.org/python/how-to-use-sys-argv-in-python/)
 - [GeeksForGeeks (Python lists)](https://www.geeksforgeeks.org/python/python-lists/)
 - [GeeksForGeeks (sum())](https://www.geeksforgeeks.org/python/sum-function-python/)
