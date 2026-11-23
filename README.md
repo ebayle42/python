@@ -264,6 +264,162 @@ pyvision -m 00
 
 ### python_module_02 — Data Engineering for Smart Agriculture
 
+<details>
+<summary><b>ex0</b> — ft_first_exception.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex0` |
+| **Directory** | `python_module_02/ex0/` |
+| **File(s)** | `ft_first_exception.py` |
+| **Function / Class** | `input_temperature(temp_str)`, `test_temperature(data)` |
+| **Description** | Converts a string to a temperature and catches the error when the input is not a number |
+| **Concepts** | `try` / `except`, `ValueError` |
+
+</details>
+
+<details>
+<summary><b>ex1</b> — ft_raise_exception.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex1` |
+| **Directory** | `python_module_02/ex1/` |
+| **File(s)** | `ft_raise_exception.py` |
+| **Function / Class** | `input_temperature(temp_str)`, `test_temperature(data)` |
+| **Description** | Rejects temperatures above 40°C or below 0°C by raising a `ValueError` with a custom message |
+| **Concepts** | `raise`, error messages |
+
+</details>
+
+<details>
+<summary><b>ex2</b> — ft_different_errors.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex2` |
+| **Directory** | `python_module_02/ex2/` |
+| **File(s)** | `ft_different_errors.py` |
+| **Function / Class** | `garden_operations(operation_number)`, `test_error_types()` |
+| **Description** | Triggers then catches 4 types of errors, each one separately, then all of them in a single `except` |
+| **Concepts** | `ValueError`, `ZeroDivisionError`, `FileNotFoundError`, `TypeError`, multiple `except`, catching a tuple of exceptions |
+
+</details>
+
+<details>
+<summary><b>ex3</b> — ft_custom_errors.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex3` |
+| **Directory** | `python_module_02/ex3/` |
+| **File(s)** | `ft_custom_errors.py` |
+| **Function / Class** | `GardenError`, `PlantError`, `WaterError`, `check_plant()`, `check_water()` |
+| **Description** | Custom exception hierarchy: `PlantError` and `WaterError` inherit from `GardenError`, so both can be caught through the parent class |
+| **Concepts** | Custom exceptions, inheriting from `Exception`, `__str__` |
+
+</details>
+
+<details>
+<summary><b>ex4</b> — ft_finally_block.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex4` |
+| **Directory** | `python_module_02/ex4/` |
+| **File(s)** | `ft_finally_block.py` |
+| **Function / Class** | `PlantError`, `water_plant(plant_name)`, `test_watering_system(plants)` |
+| **Description** | Watering system that always closes, even when an invalid plant name raises an error |
+| **Concepts** | `finally`, cleanup, `return` inside `except` |
+
+</details>
+
+### python_module_03 — Mastering Python Collections
+
+<details>
+<summary><b>ex0</b> — ft_command_quest.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex0` |
+| **Directory** | `python_module_03/ex0/` |
+| **File(s)** | `ft_command_quest.py` |
+| **Function / Class** | — |
+| **Description** | Prints the program name and every command-line argument received |
+| **Concepts** | `sys.argv`, `len()` |
+
+</details>
+
+<details>
+<summary><b>ex1</b> — ft_score_analytics.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex1` |
+| **Directory** | `python_module_03/ex1/` |
+| **File(s)** | `ft_score_analytics.py` |
+| **Function / Class** | — |
+| **Description** | Reads scores from the arguments, skips invalid ones, then prints total, average, high, low and range |
+| **Concepts** | Lists, `sum()`, `max()`, `min()`, `int()` with `ValueError` |
+
+</details>
+
+<details>
+<summary><b>ex2</b> — ft_coordinate_system.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex2` |
+| **Directory** | `python_module_03/ex2/` |
+| **File(s)** | `ft_coordinate_system.py` |
+| **Function / Class** | `get_player_pos()` |
+| **Description** | Asks for `x,y,z` coordinates until they are valid, then computes the distance to the center and between two points |
+| **Concepts** | Tuples, tuple unpacking, `str.split()`, `math.sqrt()` |
+
+</details>
+
+<details>
+<summary><b>ex3</b> — ft_achievement_tracker.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex3` |
+| **Directory** | `python_module_03/ex3/` |
+| **File(s)** | `ft_achievement_tracker.py` |
+| **Function / Class** | `gen_player_achievements()` |
+| **Description** | Gives random achievements to 4 players, then prints all distinct ones, the common ones, the ones unique to each player and the ones each player is missing |
+| **Concepts** | Sets, `union()`, `intersection()`, `difference()`, `random.sample()` |
+
+</details>
+
+<details>
+<summary><b>ex4</b> — ft_inventory_system.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex4` |
+| **Directory** | `python_module_03/ex4/` |
+| **File(s)** | `ft_inventory_system.py` |
+| **Function / Class** | `create_inventory()` |
+| **Description** | Builds an inventory from `item:quantity` arguments, rejects invalid or duplicate items, then prints the share of each item and the most and least abundant ones |
+| **Concepts** | Dictionaries, `dict.update()`, `dict.keys()`, `dict.values()` |
+
+</details>
+
+<details>
+<summary><b>ex5</b> — ft_data_stream.py</summary>
+
+| | |
+|---|---|
+| **Exercise** | `ex5` |
+| **Directory** | `python_module_03/ex5/` |
+| **File(s)** | `ft_data_stream.py` |
+| **Function / Class** | — |
+| **Description** | 🚧 In progress |
+| **Concepts** | Generators, `yield` |
+
+</details>
+
 ## Resources
 
 - [pyvision](https://www.github.com/ebayle42/pyvision/) by [ebayle42](https://www.github.com/ebayle42)
@@ -278,12 +434,18 @@ pyvision -m 00
 - [GeeksForGeeks (str to int)](https://www.geeksforgeeks.org/python/convert-string-to-integer-in-python/)
 - [W3Schools (ValueError)](https://www.w3schools.com/python/ref_exception_valueerror.asp)
 - [GeeksforGeeks (Custom Errors)](https://www.geeksforgeeks.org/python/define-custom-exceptions-in-python/) 
-- [Educative (__str__)](https://www.educative.io/answers/what-is-the-str-method-in-python)
+- [Educative (__str__ in Python)]([https://www.educative.io/answerswhat-is-the-str-method-in-python])
 - [GeeksForGeeks (sys-argv)](https://www.geeksforgeeks.org/python/how-to-use-sys-argv-in-python/)
 - [GeeksForGeeks (Python lists)](https://www.geeksforgeeks.org/python/python-lists/)
-- [GeeksForGeeks (sum() in Python)](https://www.geeksforgeeks.org/python/sum-function-python/)
-- [GeeksForGeeks (max() in Python)](https://www.geeksforgeeks.org/python/python-max-function/)
-- [GeeksForGeeks (min() in Python)](https://www.geeksforgeeks.org/python/python-min-function/)
-- [GeeksForGeeks (set() in Python)](https://www.geeksforgeeks.org/python/sets-in-python/)
-- [GeeksForGeeks (random() in Python)](https://www.geeksforgeeks.org/python/random-numbers-in-python/)
-- [GeeksForGeeks (Union, Intersection, Difference in Python)](https://www.geeksforgeeks.org/python/python-set-operations-union-intersection-difference-symmetric-difference/)
+- [GeeksForGeeks (sum())](https://www.geeksforgeeks.org/python/sum-function-python/)
+- [GeeksForGeeks (max())](https://www.geeksforgeeks.org/python/python-max-function/)
+- [GeeksForGeeks (min())](https://www.geeksforgeeks.org/python/python-min-function/)
+- [GeeksForGeeks (set())](https://www.geeksforgeeks.org/python/sets-in-python/)
+- [GeeksForGeeks (random())](https://www.geeksforgeeks.org/python/random-numbers-in-python/)
+- [GeeksForGeeks (Union, Intersection, Difference)](https://www.geeksforgeeks.org/python/python-set-operations-union-intersection-difference-symmetric-difference/)
+- [GeeksForGeeks (Dictionnary)](https://www.geeksforgeeks.org/python/python-dictionary/)
+- [W3Schools (dict.update())](https://www.w3schools.com/python/ref_dictionary_update.asp)
+- [W3Schools (dict.keys())](https://www.w3schools.com/python/ref_dictionary_keys.asp)
+- [W3Schools (dict.values())](https://www.w3schools.com/python/ref_dictionary_values.asp)
+- [GeeksForGeeks (list())](https://www.geeksforgeeks.org/python/python-lists/)
+- [GeeksForGeeks (yield)](https://www.geeksforgeeks.org/python/python-yield-keyword/)
